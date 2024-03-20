@@ -13,10 +13,8 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 // [ES] > Agrega el número que será Bot y los que serán propietarios.
 // [EN] > Add the number that will be Bot and those that will be owners.
 global.owner = [
-["50250101139", 'Wilmer ofc', true], //FantasyBot-MD
-["50258115623"], 
-["51967997782"],
-["59178232529"]
+["5493517187839", 'Aldair - macaquito ofc', true], //Nixx - Data - Bot
+["51954413664"],
 ]
 
 global.mods = []
@@ -24,7 +22,7 @@ global.prems = []
 
 
 
-global.tagusario = ['50250101139'];
+global.tagusario = ['51954413664'];
 
 
 
@@ -101,56 +99,54 @@ global.moment = moment
 //------------------------------------------------
 
 global.official = [ // Agregate si eres Owner
-["50250101139", 'Wilmer ofc', 1], 
-["50258115623", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-["51996416792", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["50250101139", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],
-["50258115623", 'Soporte', 1]]
+["51954413664", 'Nixx ofc', 1], 
+["51954413664", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+["5493517187839", '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]]
 
 global.mail = '' // Add email
 global.desc = '' // Add short description (20 caractres max)
 global.desc2 = '' // Add long description (90 caractres max) (Este parámetro se aplicará sólo si su whasapp no tiene descripción)
 global.country = '' // Add country, example: 🇪🇨
 //------------------------------------------------
-global.fantasy = "𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫" // fantasy
-global.wilmerofc = "(𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫)\n𝑩𝒚 𝑾𝒊𝒍𝒎𝒆𝒓 𝒐𝒇𝒄" // fkontak2
-global.packname = "𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫"
-global.author = "𝑾𝒊𝒍𝒎𝒆𝒓 𝒐𝒇𝒄"
+global.fantasy = "Nixx-Data-Bot" // fantasy
+global.wilmerofc = "(Nixx)\n By Aldair 𝒐𝒇𝒄" // fkontak2
+global.packname = "Nixx-Data-Bot"
+global.author = "Aldair - macaquito"
 
 //------------------------------------------------
 
 global.vs = "1.7.0"
 global.vsJB = "2.5 (Beta)"
-global.gt = "𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫"
+global.gt = "Nixx-Data-Bot"
 
-global.canalofc = "https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43"
-global.yt = "https://youtube.com/@wilmer.oficial"
-global.yt2 = "https://www.youtube.com/watch?v=Ko019wvu2Tc&t=71s"
-global.ig = "https://www.instagram.com/cmwilmer4"
-global.md = "https://github.com/Wilsmac/FantasyBot-MD-v1"
-global.fb = "https://www.facebook.com/groups/1039865800178898/?ref=share"
-global.tk = "https://www.tiktok.com/@wilsmac4"
-global.ths = "https://www.threads.net/@cmwilmer4"
-global.paypal = 'https://paypal.me/'
+global.grupoofc = "https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu"
+global.yt = "Nixx-Data-Bot"
+global.yt2 = "Nixx-Data-Bot"
+global.ig = "https://www.instagram.com/bmelani170"
+global.md = "Nixx-Data-Bot"
+global.fb = "Nixx-Data-Bot"
+global.tk = "Nixx-Data-Bot"
+global.ths = "Nixx-Data-Bot"
+global.paypal = 'Nixx-Data-Bot'
 global.asistencia = 'https://wa.me/message/C45GXBEFTPONE1' //Contacto
 global.bot = 'wa.me/50250101139'
 
-global.nna = 'https://www.atom.bio/Wilsmac/' // Cuentas
-global.nn2 = 'https://t.me/' // 
-global.nna2 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' //Anime y social 
-global.nn = 'https://chat.whatsapp.com/CPASQk25rExCIEdlkrOfBz' // FantasyBot-MD 
-global.nnn = 'https://chat.whatsapp.com/CPASQk25rExCIEdlkrOfBz' // FantasyBot-MD 
-global.nnnt = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43' // canal 
-global.nnntt = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43' // canal 
-global.nnnttt = 'https://chat.whatsapp.com/CPASQk25rExCIEdlkrOfBz' // FantasyBot-MD 
-global.nnnttt1 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' // Anime y social 
-global.nnnttt2 = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43' // canal
-global.nnnttt3 = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43' // canal
-global.nnnttt4 = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43' // canal 
-global.nnnttt5 = 'https://chat.whatsapp.com/EAxOACyzjB6JhkRvQvw4zl' // anime y social 
-global.nnnttt6 = 'https://chat.whatsapp.com/CPASQk25rExCIEdlkrOfBz' // FantasyBot-MD 
-global.channel1 = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43'
-global.channel2 = 'https://whatsapp.com/channel/0029VaCUlPX0LKZAlP10pC43'
+global.nna = 'Nixx-Data-Bot' // Cuentas
+global.nn2 = 'Nixx-Data-Bot' // 
+global.nna2 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' //Anime y social 
+global.nn = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // Nixx-Data-Bot
+global.nnn = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // Nixx-Data-Blt
+global.nnnt = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // grupo
+global.nnntt = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // grupo 
+global.nnnttt = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // Nixx-Data-Bot
+global.nnnttt1 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // Anime y social 
+global.nnnttt2 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // grupo
+global.nnnttt3 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // grupo
+global.nnnttt4 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // grupo
+global.nnnttt5 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // anime y social 
+global.nnnttt6 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu' // Nixx-Data-Bot
+global.channel1 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu'
+global.channel2 = 'https://chat.whatsapp.com/Cu7ZO5ZiwkyG9rIwjRUIDu'
 global.channel3 = 'https://t.me/'
 
 //------------------------------------------------
@@ -178,14 +174,14 @@ global.exito = eg
 
 //------------------------------------------------
 
-global.wm = "𝑾𝒊𝒍𝒎𝒆𝒓 𝒐𝒇𝒄"
-global.igfg = "𝑭𝒂𝒏𝒕𝒂𝒔𝒚𝑩𝒐𝒕-𝑴𝑫"
+global.wm = "Macaquito OFC "
+global.igfg = "Nixx-Data-Bot"
 global.wait = "⌛ *`Cargando...`*\n*✦✦⊹⊹⊹⊹⊹⊹⊹⊹✪* `[20%]`"
 global.waitt = "⏳ *`Cargando....`*\n*✦✦✦✦⊹⊹⊹⊹⊹⊹✪* `[40%]`"
 global.waittt = "⌛ *`Cargando...`*\n*✦✦✦✦✦✦⊹⊹⊹⊹✪* `[60%]`"
 global.waitttt = "⏳ *`Cargando....`*\n*✦✦✦✦✦✦✦✦⊹⊹✪* `[80%]`"
 global.waittttt = "⌛ *`Procesando...`*\n*✦✦✦✦✦✦✦✦✦✦✪* `[100%]`"
-global.nomorown = "50250101139"
+global.nomorown = "5493517187839"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
 
 //------------------------------------------------
