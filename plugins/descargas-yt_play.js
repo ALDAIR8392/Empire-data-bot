@@ -15,22 +15,22 @@ additionalText = '𝐀𝐮𝐝𝐢𝐨 '
 additionalText = '𝐕𝐢𝐝𝐞𝐨 '}
 let captionvid = `*┈┈┈┈『${vs}』┈┈┈┈*
 
-✨⃞⃝⃟➥ 𝑻𝑰𝑻𝑼𝑳𝑶
+𝑻𝑰𝑻𝑼𝑳𝑶
    ${yt_play[0].title}
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
-✨⃞⃝⃟➥ 𝑷𝑼𝑩𝑳𝑰𝑪𝑨𝑫𝑶
+𝑷𝑼𝑩𝑳𝑰𝑪𝑨𝑫𝑶
   ${yt_play[0].ago}
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
-✨⃞⃝⃟➥ 𝑫𝑼𝑹𝑨𝑪𝑰𝑶𝑵
+𝑫𝑼𝑹𝑨𝑪𝑰𝑶𝑵
   ${secondString(yt_play[0].duration.seconds)}
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
-✨⃞⃝⃟➥ 𝑽𝑰𝑺𝑻𝑨𝑺
+𝑽𝑰𝑺𝑻𝑨𝑺
   ${MilesNumber(yt_play[0].views)}
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
-✨⃞⃝⃟➥ 𝑼𝑹𝑳
+𝑼𝑹𝑳
 𖤍 ${yt_play[0].url}
 ─━━━━┉❈⏤͟͟͞͞★꙲⃝͟🌻❈┉━━━━─
-🌹 𝑬𝑵𝑽𝑰𝑨𝑫𝑶 ${additionalText}, 𝑨𝑮𝑼𝑨𝑹𝑫𝑬 𝑼𝑵 𝑴𝑶𝑴𝑬𝑵𝑻𝑶 𝑷𝑶𝑹 𝑭𝑨𝑽𝑶𝑹..
+𝑬𝑵𝑽𝑰𝑨𝑫𝑶 ${additionalText}, 𝑨𝑮𝑼𝑨𝑹𝑫𝑬 𝑼𝑵 𝑴𝑶𝑴𝑬𝑵𝑻𝑶 𝑷𝑶𝑹 𝑭𝑨𝑽𝑶𝑹..
 *✧══════•❁❀❁•══════✧*`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
