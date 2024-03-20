@@ -22,10 +22,10 @@ let biografia = await conn.fetchStatus(number +'@s.whatsapp.net').catch(_ => 'un
 let bio = biografia.status?.toString() || `${desc2 == '' ? lenguajeGB.smsContacto2() : desc2}`
   
 nombre = official[0][0] == String(contact[0]) ? official[0][1] : official[1][0] == String(contact[0]) ? official[1][1] : official[2][0] == String(contact[0]) ? official[2][1] : official[3][0] == String(contact[0]) ? official[3][1] : lenguajeGB.smsContacto3() 
-description = official[0][0] == String(contact[0]) ? 'FantasyBot-MD' : official[1][0] == String(contact[0]) ? 'FantasyBot-MD' : official[2][0] == String(contact[0]) ? 'FantasyBot-MD' : official[3][0] == String(contact[0]) ? 'FantasyBot-MD' : desc === '' ? 'FantasyBot-MD' : desc
-correo = official[0][0] == String(contact[0]) ? 'wilsmac68@gamil.com' : official[1][0] == String(contact[0]) ? 'wilsmac68@gmail.com' : official[2][0] == String(contact[0]) ? 'indefinido202@gmail.com' : mail === '' ? lenguajeGB.smsContacto6() : mail
+description = official[0][0] == String(contact[0]) ? 'Nixx-Data-Bot' : official[1][0] == String(contact[0]) ? 'Nixx-Data-Bot' : official[2][0] == String(contact[0]) ? 'Nixx-Data-Bot' : official[3][0] == String(contact[0]) ? 'Nixx-Data-Bot' : desc === '' ? 'Nixx-Data-Bot' : desc
+correo = official[0][0] == String(contact[0]) ? '...' : official[1][0] == String(contact[0]) ? '...' : official[2][0] == String(contact[0]) ? '...' : mail === '' ? lenguajeGB.smsContacto6() : mail
 lugar = official[0][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : official[1][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : official[2][0] == String(contact[0]) ? '🇺🇲 Estados Unidos' : official[3][0] == String(contact[0]) ? '🇺🇸 Estados Unidos' : country === '' ? lenguajeGB.smsContacto7() : country
-enlace = official[0][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[1][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[2][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : official[3][0] == String(contact[0]) ? 'https://github.com/Wilsmac' : md 
+enlace = official[0][0] == String(contact[0]) ? '...' : official[1][0] == String(contact[0]) ? '...' : official[2][0] == String(contact[0]) ? '...' : official[3][0] == String(contact[0]) ? '...' : md 
    
 lista.push([number, ofc, nombre, description, official[3][0] == String(contact[0]) ? null : correo, lugar, enlace, bio, official[1][0] == String(contact[0]) ? 'https://www.youtube.com/wilmer.oficial' : null]) }  
 lista.push([conn.user.jid.split('@')[0], await conn.getName(conn.user.jid), packname, lenguajeGB.smsContacto8(), mail === '' ? 'wilsmac68@gmail.com' : mail, lenguajeGB.smsContacto7(), md, bioBot, yt, ig, fb, paypal, nna])
